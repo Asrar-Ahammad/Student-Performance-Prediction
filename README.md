@@ -43,5 +43,5 @@ Contributions to the Student Performance Prediction System are welcome! If you f
 
 # Acknowledgements
 * This project utilizes Microsoft Azure for model deployment and CI/CD pipeline automation.
-* The dataset used for student performance prediction is sourced from [source-name].
-* Parts of the code and project structure are inspired by [inspiration-source].
+* The dataset used for student performance prediction is sourced from Kaggle.
+* Parts of the code and project structure are inspired by Krish Naik Sir.
