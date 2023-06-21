@@ -38,10 +38,10 @@ To get started with the Student Performance Prediction System, follow these step
 
 4. Run the notebooks sequentially to execute the code and reproduce the results.
 
-# Contributing
+## Contributing
 Contributions to the Student Performance Prediction System are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-# Acknowledgements
+## Acknowledgements
 * This project utilizes Microsoft Azure for model deployment and CI/CD pipeline automation.
 * The dataset used for student performance prediction is sourced from Kaggle.
 * Parts of the code and project structure are inspired by Krish Naik Sir.
