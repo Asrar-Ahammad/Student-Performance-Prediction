@@ -1,6 +1,6 @@
 # Student Performance Prediction System
 
-The Student Performance Prediction System is a machine learning-based solution that predicts student performance using various features. It leverages a CI/CD pipeline and is deployed on Microsoft Azure for automated development, testing, and deployment.
+The Student Performance Prediction System is a machine learning-based solution that predicts student performance using various features. It leverages a CI/CD pipeline and is yet to deployed on Microsoft Azure for automated development, testing, and deployment.
 
 ## Overview
 
