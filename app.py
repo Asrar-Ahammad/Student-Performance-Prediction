@@ -41,11 +41,26 @@ def predict_datapoint():
         predict_pipeline=Predictpipeline()
         print("Mid Prediction")
         results=predict_pipeline.predict(pred_df)
+        bestf = 'Keep up the good work'
+        abavgf = 'Good work'
+        avgf = 'You must work hard'
+        failed = 'You Failed'
+
         print("after Prediction")
-        if results >= 100:
-            return render_template('home.html',results= 100)
+        if results >= 100 or results >=90:
+            return render_template('home.html',results= 100, feed= bestf)
+        elif results <= 90 and results >=70:
+            return render_template('home.html',results= results[0], feed= abavgf)
+        elif results <= 70 and results >=35:
+            return render_template('home.html',results= results[0], feed= avgf)
+        elif results < 35:
+            return render_template('home.html',results= results[0], feed= failed)
         else:
              return render_template('home.html',results= results[0])
+        
+    
 
 if __name__=='__main__':
-     app.run(port=5001,debug=True) # http://127.0.0.1:5001/predictdata
+     app.run(debug=False, host='0.0.0.0') 
+     
+# print('http://127.0.0.1:5001/predictdata')
