@@ -12,7 +12,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
-from xgboost import XGBRegressor
+# from xgboost import XGBRegressor
 
 from src.exception import CustomException
 from src.logger import logging
@@ -39,7 +39,7 @@ class ModelTrainer:
             models = {'Random Forest': RandomForestRegressor(),
                       'Decision Tree': DecisionTreeRegressor(),
                       'Linear Regression': LinearRegression(),
-                      'XGBRegressor': XGBRegressor(),
+                    #   'XGBRegressor': XGBRegressor(),
                       'K-Neighbour Regressor': KNeighborsRegressor(),
                       'CatBoostRegressor': CatBoostRegressor(),
                       'AdaBoost Regressor': AdaBoostRegressor(),
@@ -58,10 +58,10 @@ class ModelTrainer:
                     # 'max_features':['sqrt','log2'],
                 },
                 "Linear Regression": {},
-                "XGBRegressor": {
-                    'learning_rate': [.1, .01, .05, .001],
-                    'n_estimators': [8, 16, 32, 64, 128, 256]
-                },
+                # "XGBRegressor": {
+                #     'learning_rate': [.1, .01, .05, .001],
+                #     'n_estimators': [8, 16, 32, 64, 128, 256]
+                # },
                 "K-Neighbour Regressor": {},
                 "CatBoostRegressor": {
                     'depth': [6, 8, 10],
