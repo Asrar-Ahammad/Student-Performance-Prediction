@@ -1,10 +1,10 @@
-# Student Performance Prediction System
+# Student Performance Analysis System
 
-The Student Performance Prediction System is a machine learning-based solution that predicts student performance using various features. It leverages a CI/CD pipeline and is yet to deployed on Microsoft Azure for automated development, testing, and deployment.
+The Student Performance Analysis System is a machine learning-based solution that predicts student performance using various features. It leverages a CI/CD pipeline and is yet to deployed on Streamlit for automated development, testing, and deployment.
 
 ## Overview
 
-The Student Performance Prediction System utilizes machine learning algorithms to forecast student performance based on factors such as demographics, previous grades, attendance, and other relevant indicators. By analyzing historical data, the system can provide valuable insights to educators, enabling them to identify students who may require additional support or intervention.
+The Student Performance Analysis System utilizes machine learning algorithms to forecast student performance based on factors such as demographics, previous grades, attendance, and other relevant indicators. By analyzing historical data, the system can provide valuable insights to educators, enabling them to identify students who may require additional support or intervention.
 
 ## Architecture
 
@@ -18,7 +18,7 @@ The system architecture is as follows:
 
 ## Getting Started
 
-To get started with the Student Performance Prediction System, follow these steps:
+To get started with the Student Performance Analysis System, follow these steps:
 
 1. Clone the repository:
 
@@ -39,9 +39,9 @@ To get started with the Student Performance Prediction System, follow these step
 4. Run the notebooks sequentially to execute the code and reproduce the results.
 
 ## Contributing
-Contributions to the Student Performance Prediction System are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+Contributions to the Student Performance Analysis System are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 ## Acknowledgements
-* This project utilizes Microsoft Azure for model deployment and CI/CD pipeline automation.
+* This project utilizes Streamlit for model deployment and CI/CD pipeline automation.
 * The dataset used for student performance prediction is sourced from Kaggle.
 * Parts of the code and project structure are inspired by Krish Naik Sir.
